@@ -1,0 +1,19 @@
+what is the genric in java
+
+In Java, "generics" are a feature that allows programmers to write classes, interfaces, 
+and methods that operate on different data types while providing compile-time type safety.
+This means you can write a single generic class or method that works with any data type  
+without losing type safety or needing to cast objects explicitly.
+  
+Generics enable code reusability and flexibility by using type parameters, 
+typically denoted by angle brackets such as <T>. For example, a generic class 
+Box<T> can hold objects of any type T, be it Integer, String, or any other type,
+and the type is checked at compile time to avoid runtime errors.
+
+Key points about Java generics:
+They allow type parameters to be specified when defining classes, interfaces, or methods.
+Enable type-safe collections and algorithms by specifying the types they operate on.
+Prevent runtime class cast exceptions because type checking is done at compile time.
+Improve code readability and maintainability by eliminating the need for explicit casting.
+
+Example of a generic class:
